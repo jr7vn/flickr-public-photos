@@ -1,5 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import 'semantic-ui-css/semantic.min.css';
+import './themes/kapella/base/vendor.bundle.base.css';
+import './themes/kapella/mdi/css/materialdesignicons.min.css';
+import './themes/kapella/style.css';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
