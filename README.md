@@ -3,7 +3,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ### Run api server  
 `npm run serve`  
 
-### Config api URL on .env file:  
+### Config api URL in .env file:  
 `.env.development`  
 ### Run the app  
 In the project directory, you can run:  
