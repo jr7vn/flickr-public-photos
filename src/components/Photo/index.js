@@ -9,7 +9,13 @@ class Photo extends React.Component {
       <Card>
         <Image src={details.media.m} wrapped ui={false} />
         <Card.Content>
-          <Card.Header>{details.tags}</Card.Header>
+          <Card.Header>{details.author}</Card.Header>
+          <Card.Meta>
+            <a target="_blank" rel="noopener noreferrer" href={details.link} className='date'>{details.link}</a>
+          </Card.Meta>
+          <Card.Description>
+            {details.tags}
+          </Card.Description>
         </Card.Content>
       </Card>
     );
